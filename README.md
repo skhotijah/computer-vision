@@ -1,6 +1,6 @@
 # computer-vision
 
-### 1. References
+#### 1. References
 This section provides more resources on the topic if you are looking to go deeper.
 
 * [1]https://www.cse.usf.edu/~r1k/MachineVisionBook/MachineVision.files/MachineVision_Chapter15.pdf
@@ -19,7 +19,7 @@ This section provides more resources on the topic if you are looking to go deepe
 
 * [8] https://levelup.gitconnected.com/product-detection-from-grocery-shelf-9db031e0ddc1
 
-### 2. Object Detection
-### 3. Object_Tracking
-### 4. product-detection
+#### 2. Object Detection
+#### 3. Object_Tracking
+#### 4. product-detection
 
