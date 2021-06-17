@@ -1,6 +1,6 @@
 # computer-vision
 
-1. References
+## 1. References
 This section provides more resources on the topic if you are looking to go deeper.
 
 •	[1]https://www.cse.usf.edu/~r1k/MachineVisionBook/MachineVision.files/MachineVision_Chapter15.pdf
@@ -16,8 +16,9 @@ This section provides more resources on the topic if you are looking to go deepe
 •	[6]     https://link.springer.com/referenceworkentry/10.1007%2F978-0-387-73003-5_35
 
 •	[7]https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Learning_Human-Object_Interaction_Detection_Using_Interaction_Points_CVPR_2020_paper.pdf
+•	[8] https://levelup.gitconnected.com/product-detection-from-grocery-shelf-9db031e0ddc1
 
-3. Object Detection
-4. Object_Tracking
-5. product-detection
+## 3. Object Detection
+## 4. Object_Tracking
+## 5. product-detection
 
