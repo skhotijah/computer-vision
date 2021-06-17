@@ -19,7 +19,7 @@ This section provides more resources on the topic if you are looking to go deepe
 
 •	[8] https://levelup.gitconnected.com/product-detection-from-grocery-shelf-9db031e0ddc1
 
-### 3. Object Detection
-### 4. Object_Tracking
-### 5. product-detection
+### 2. Object Detection
+### 3. Object_Tracking
+### 4. product-detection
 
