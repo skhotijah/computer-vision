@@ -95,4 +95,21 @@ for key in odata.keys():
     cv2.imwrite(newname,det_img)
 ```
 #### 4. product-detection
+```
 
+# Install TFOD API (TF 1)
+%tensorflow_version 1.x
+import tensorflow as tf 
+print(tf.__version__)
+
+!git clone https://github.com/tensorflow/models.git
+
+% cd models/research
+!pip install --upgrade pip
+# Compile protos.
+!protoc object_detection/protos/*.proto --python_out=.
+# Install TensorFlow Object Detection API.
+!cp object_detection/packages/tf1/setup.py .
+!python -m pip install --use-feature=2020-resolver .
+
+```
