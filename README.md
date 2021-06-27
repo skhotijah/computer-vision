@@ -59,5 +59,40 @@ while True:
     bbox = bbox_bytes
 ```
 #### 3. Object_Tracking
+```
+mot_tracker = Sort()      # Tracker using SORT Algorithm
+for key in odata.keys():   
+    arrlist = []
+    det_img = cv2.imread(os.path.join(img_path, key))
+    overlay = det_img.copy()
+    det_result = data[key] 
+    
+    for info in det_result:
+        bbox = info['bbox']
+        labels = info['labels']
+        scores = info['scores']
+        templist = bbox+[scores]
+        
+        if labels == 1: # label 1 is a person in MS COCO Dataset
+            arrlist.append(templist)
+            
+    track_bbs_ids = mot_tracker.update(np.array(arrlist))
+    
+    mot_imgid = key.replace('.jpg','')
+    newname = save_path + mot_imgid + '_mot.jpg'
+    print(mot_imgid)
+    
+    for j in range(track_bbs_ids.shape[0]):  
+        ele = track_bbs_ids[j, :]
+        x = int(ele[0])
+        y = int(ele[1])
+        x2 = int(ele[2])
+        y2 = int(ele[3])
+        track_label = str(int(ele[4])) 
+        cv2.rectangle(det_img, (x, y), (x2, y2), (0, 255, 255), 4)
+        cv2.putText(det_img, '#'+track_label, (x+5, y-10), 0,0.6,(0,255,255),thickness=2)
+        
+    cv2.imwrite(newname,det_img)
+```
 #### 4. product-detection
 
