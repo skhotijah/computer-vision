@@ -1,5 +1,12 @@
 # computer-vision
 
+
+## Repository summary
+### How to use?
+- Everything from data preparation to model training is done using Colab Notebooks so that no setup is required locally. 
+- All the relevant commentaries have been included inside the Colab Notebooks.
+
+
 #### 1. References
 This section provides more resources on the topic if you are looking to go deeper.
 
@@ -114,7 +121,4 @@ print(tf.__version__)
 
 ```
 
-## Repository summary
-### How to use?
-- Everything from data preparation to model training is done using Colab Notebooks so that no setup is required locally. 
-- All the relevant commentaries have been included inside the Colab Notebooks.
+
