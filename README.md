@@ -113,3 +113,8 @@ print(tf.__version__)
 !python -m pip install --use-feature=2020-resolver .
 
 ```
+
+## Repository summary
+### How to use?
+- Everything from data preparation to model training is done using Colab Notebooks so that no setup is required locally. 
+- All the relevant commentaries have been included inside the Colab Notebooks.
