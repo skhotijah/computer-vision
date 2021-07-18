@@ -104,6 +104,9 @@ for key in odata.keys():
     cv2.imwrite(newname,det_img)
 ```
 #### 4. product-detection
+
+![image](https://user-images.githubusercontent.com/53899191/126057914-2837f0f9-af76-420e-81fe-dd3c6f3c6c6c.png)
+
 ```
 
 # Install TFOD API (TF 1)
