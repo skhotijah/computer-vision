@@ -27,6 +27,8 @@ This section provides more resources on the topic if you are looking to go deepe
     * [8] https://levelup.gitconnected.com/product-detection-from-grocery-shelf-9db031e0ddc1
 
 #### 2. Object Detection
+![image](https://user-images.githubusercontent.com/53899191/126057888-fc998cfa-b2e6-4501-8292-057175555374.png)
+
 ##### YOLOv4 on Webcam Videos
 ```
 # start streaming video from webcam
